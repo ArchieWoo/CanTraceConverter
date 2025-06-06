@@ -2,7 +2,10 @@
 
 > A lightweight and cross-platform library for converting CAN trace files between **PCAN** (`.trc`) and **Vector** (`.asc`) formats.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
+
+[![](https://img.shields.io/nuget/dt/CanTraceConverter?color=004880&label=downloads&logo=NuGet)](https://www.nuget.org/packages/CanTraceConverter/)
+[![](https://img.shields.io/nuget/vpre/CanTraceConverter?color=%23004880&label=NuGet&logo=NuGet)](https://www.nuget.org/packages/CanTraceConverter/)
+[![GitHub](https://img.shields.io/github/license/ArchieWoo/CanTraceConverter?color=%231281c0)](LICENSE)
 
 ---
 

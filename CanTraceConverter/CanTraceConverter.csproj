@@ -7,21 +7,15 @@
 			net7.0-windows;
 			net8.0-windows;
 			net9.0-windows;
-
 			netcoreapp3.1;
-
 			net461;
 			net462;
-
 			net47;
 			net471;
 			net472;
-
 			net48;
 			net481;
-
 			netstandard2.0;
-
 			net5.0;
 			net6.0;
 			net7.0;
@@ -34,18 +28,27 @@
 		<Nullable>enable</Nullable>
 		<Authors>Wu Qi</Authors>
 		<Title>CanTraceConverter</Title>
-		<PackageLicenseExpression>MIT</PackageLicenseExpression>
-		<Copyright>© 2024 Wu Qi. Licensed under the MIT License. See LICENSE file for details.</Copyright>
+		<Version>1.0.0</Version>
+		
+		<!--Nuget Package Related-->
+		<PackageId>CanTraceConverter</PackageId>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>		
 		<PackageIcon></PackageIcon>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<PackageTags>V1.0.0</PackageTags>
-		<Version>1.0.0</Version>
 		<Description>
 			PCAN trace convert to Vector trace.
 			Vector trace convert to pcan trace.
 			Supported trc and asc format.
 		</Description>
 		<RepositoryUrl>https://github.com/ArchieWoo/CanTraceConverter</RepositoryUrl>
+		<PackageProjectUrl>https://github.com/ArchieWoo/CanTraceConverter</PackageProjectUrl>
+		<Copyright>© 2024 Wu Qi. Licensed under the MIT License. See LICENSE file for details.</Copyright>
 	</PropertyGroup>
-
+	<ItemGroup>
+		<None Include="..\README.md">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
 </Project>
