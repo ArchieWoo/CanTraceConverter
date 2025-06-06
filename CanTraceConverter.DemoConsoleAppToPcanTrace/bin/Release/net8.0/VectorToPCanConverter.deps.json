@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "VectorToPCanConverter/1.0.0": {
+        "dependencies": {
+          "CanTraceConverter": "1.0.0"
+        },
+        "runtime": {
+          "VectorToPCanConverter.dll": {}
+        }
+      },
+      "CanTraceConverter/1.0.0": {
+        "runtime": {
+          "CanTraceConverter.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "VectorToPCanConverter/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CanTraceConverter/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

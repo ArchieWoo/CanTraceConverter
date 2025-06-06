@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36109.1 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CanTraceConverter", "CanTraceConverter\CanTraceConverter.csproj", "{6E700B51-3C7F-4E87-BDFE-EAEBD0A64511}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CanTraceConverter.Test", "CanTraceConverter.Test\CanTraceConverter.Test.csproj", "{7408D77D-A3B6-4578-8223-9EDB19805621}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CanTraceConverter.DemoConsoleAppToPcanTrace", "CanTraceConverter.DemoConsoleAppToPcanTrace\CanTraceConverter.DemoConsoleAppToPcanTrace.csproj", "{8614BB82-AEA0-43D6-8023-5C0108101880}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CanTraceConverter.DemoConsoleAppToVectorTrace", "CanTraceConverter.DemoConsoleAppToVectorTrace\CanTraceConverter.DemoConsoleAppToVectorTrace.csproj", "{97801834-DE44-441B-AC4F-7CD420E6D41D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CanTraceConverter.DemoWPF", "CanTraceConverter.DemoWPF\CanTraceConverter.DemoWPF.csproj", "{20E7829B-9A1C-4F71-963E-DF5DAFC12F01}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E700B51-3C7F-4E87-BDFE-EAEBD0A64511}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E700B51-3C7F-4E87-BDFE-EAEBD0A64511}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E700B51-3C7F-4E87-BDFE-EAEBD0A64511}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E700B51-3C7F-4E87-BDFE-EAEBD0A64511}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7408D77D-A3B6-4578-8223-9EDB19805621}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7408D77D-A3B6-4578-8223-9EDB19805621}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7408D77D-A3B6-4578-8223-9EDB19805621}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7408D77D-A3B6-4578-8223-9EDB19805621}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8614BB82-AEA0-43D6-8023-5C0108101880}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8614BB82-AEA0-43D6-8023-5C0108101880}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8614BB82-AEA0-43D6-8023-5C0108101880}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8614BB82-AEA0-43D6-8023-5C0108101880}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97801834-DE44-441B-AC4F-7CD420E6D41D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97801834-DE44-441B-AC4F-7CD420E6D41D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97801834-DE44-441B-AC4F-7CD420E6D41D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97801834-DE44-441B-AC4F-7CD420E6D41D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20E7829B-9A1C-4F71-963E-DF5DAFC12F01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20E7829B-9A1C-4F71-963E-DF5DAFC12F01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20E7829B-9A1C-4F71-963E-DF5DAFC12F01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20E7829B-9A1C-4F71-963E-DF5DAFC12F01}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D06B8ECF-2980-4102-87DA-6BC2E24D3756}
+	EndGlobalSection
+EndGlobal
